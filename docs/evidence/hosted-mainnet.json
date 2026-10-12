@@ -1,0 +1,15 @@
+{
+  "verifiedAt": "2026-10-12T20:39:56.873Z",
+  "host": "https://raydium-launchlab-trade.apilabph.workers.dev",
+  "httpStatus": 200,
+  "action": "buy",
+  "stage": "graduated-cpmm",
+  "simulation": "passed",
+  "contextSlot": 456179947,
+  "unitsConsumed": 83991,
+  "serviceFeeLamports": "250",
+  "roundTripMs": 814,
+  "signed": false,
+  "submitted": false,
+  "sampleCount": 1
+}
