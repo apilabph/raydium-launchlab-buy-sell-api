@@ -11,3 +11,7 @@ Deployment: public GitHub repository and https://raydium-launchlab-trade.apilabp
 The default public RPC returned rate-limit errors from Cloudflare, although it worked locally. Production now uses SOLANA_RPC_URL as a protected Worker secret. Its credential and local source file are not in GitHub. No paid upgrade was made. See [hosted evidence](evidence/hosted-mainnet.json).
 
 Limits: no funded trade tests or independent security audit. Local build measurements are isolated samples, not a latency SLA or confirmation benchmark. Fresh tokens can be absent from Jupiter, and historical migration configurations outside the supported set are rejected.
+
+Clean-install correction: the local bigint adapter is now a direct dependency with a root-relative npm override. Node 22/24 [CI passed](https://github.com/apilabph/raydium-launchlab-buy-sell-api/actions/runs/38307553528). Latest Worker deployment after this packaging fix: a3012937-d999-490c-9b63-a82ec3c39969. Runtime bundle size is unchanged.
+
+Final hosted readback after the packaging correction passed an unsigned buy simulation: [evidence](evidence/hosted-packaging-release.json).
