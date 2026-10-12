@@ -1,0 +1,142 @@
+{
+  "curve": {
+    "size": 429,
+    "discriminator": [
+      247,
+      237,
+      227,
+      245,
+      215,
+      195,
+      222,
+      70
+    ],
+    "fields": {
+      "status": {
+        "offset": 17,
+        "type": "u8"
+      },
+      "migrateType": {
+        "offset": 20,
+        "type": "u8"
+      },
+      "configId": {
+        "offset": 141,
+        "type": "pubkey"
+      },
+      "platformId": {
+        "offset": 173,
+        "type": "pubkey"
+      },
+      "mintA": {
+        "offset": 205,
+        "type": "pubkey"
+      },
+      "mintB": {
+        "offset": 237,
+        "type": "pubkey"
+      },
+      "realA": {
+        "offset": 53,
+        "type": "u64"
+      },
+      "realB": {
+        "offset": 61,
+        "type": "u64"
+      },
+      "totalFundRaisingB": {
+        "offset": 69,
+        "type": "u64"
+      },
+      "mintProgramFlag": {
+        "offset": 365,
+        "type": "u8"
+      }
+    }
+  },
+  "config": {
+    "size": 371,
+    "discriminator": [
+      149,
+      8,
+      156,
+      202,
+      160,
+      252,
+      176,
+      217
+    ],
+    "fields": {
+      "mintB": {
+        "offset": 83,
+        "type": "pubkey"
+      },
+      "curveType": {
+        "offset": 16,
+        "type": "u8"
+      }
+    }
+  },
+  "platform": {
+    "size": 944,
+    "discriminator": [
+      160,
+      78,
+      128,
+      0,
+      248,
+      83,
+      230,
+      160
+    ],
+    "fields": {
+      "cpConfigId": {
+        "offset": 688,
+        "type": "pubkey"
+      }
+    }
+  },
+  "cpmm": {
+    "size": 637,
+    "discriminator": [
+      247,
+      237,
+      227,
+      245,
+      215,
+      195,
+      222,
+      70
+    ],
+    "fields": {
+      "configId": {
+        "offset": 8,
+        "type": "pubkey"
+      },
+      "mintA": {
+        "offset": 168,
+        "type": "pubkey"
+      },
+      "mintB": {
+        "offset": 200,
+        "type": "pubkey"
+      },
+      "status": {
+        "offset": 329,
+        "type": "u8"
+      },
+      "mintProgramA": {
+        "offset": 232,
+        "type": "pubkey"
+      },
+      "mintProgramB": {
+        "offset": 264,
+        "type": "pubkey"
+      },
+      "poolCreator": {
+        "offset": 40,
+        "type": "pubkey"
+      }
+    }
+  }
+}

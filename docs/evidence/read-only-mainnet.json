@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-13",
+  "mode": "unsigned simulation only",
+  "rows": [
+    {
+      "observedAt": "2026-10-12T20:12:42.944Z",
+      "venue": "launchlab",
+      "action": "buy",
+      "mint": "DcJm7eBfvpAjfcS9eyAhGShzVZTBPmXXkdMqkx1siray",
+      "contextSlot": 456173900,
+      "unitsConsumed": 111520,
+      "serviceFeeLamports": "250",
+      "transactionBytes": 989,
+      "submitted": false
+    },
+    {
+      "observedAt": "2026-10-12T20:14:53.476Z",
+      "venue": "raydium-cpmm",
+      "action": "buy",
+      "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+      "contextSlot": 456174500,
+      "unitsConsumed": 83990,
+      "serviceFeeLamports": "250",
+      "transactionBytes": 633,
+      "submitted": false
+    },
+    {
+      "observedAt": "2026-10-12T20:15:23.367Z",
+      "venue": "raydium-cpmm",
+      "action": "sell",
+      "mint": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+      "contextSlot": 456174637,
+      "unitsConsumed": 65582,
+      "serviceFeeLamports": "41",
+      "transactionBytes": 611,
+      "submitted": false,
+      "localBuildLatencyMs": 668
+    }
+  ]
+}
