@@ -1,5 +1,12 @@
 # Release verification
 
+## Customer RPC deployment — October 13, 2026
+
+Deployed source `82116edb331d218fedf2f3eb1ce70789912a94dc`, Worker version `99b9eb11-69ad-427e-b634-002d00a8f434`. [Hosted readback](evidence/customer-rpc-hosted.json) passed 10 checks: root HTML matched the reviewed source, health/capabilities reported customer mode, OpenAPI targeted localhost, and former chain POST routes returned 410 CUSTOMER_RPC_REQUIRED. The documentation host does not prepare trades. Follow [customer RPC setup](CUSTOMER-RPC.md).
+
+Local checks passed; see [review](REVIEW.md). No chain requests, signatures, broadcasts, contract deployment or funded trades were performed for this release. Existing settlement/funded-test requirements remain. Older release records below describe the previous hosted architecture.
+
+
 0.1.0-beta, October 13, 2026.
 
 Passed: 14 automated tests covering four stage/direction combinations plus adversarial route and fee checks; syntax/OpenAPI check; Worker bundle dry run; npm audit (zero vulnerabilities). SDK generation is offline and SDK code is not bundled into the Worker.
