@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-10-13T12:48:48.351Z",
+  "origin": "https://raydium-launchlab-trade.apilabph.workers.dev",
+  "scope": "Read-only HTTP checks and unsigned simulation only; public historical holder samples, no signing/broadcast/funds moved",
+  "rows": [
+    {
+      "label": "health",
+      "status": 200,
+      "milliseconds": 127,
+      "check": "passed"
+    },
+    {
+      "label": "capabilities",
+      "status": 200,
+      "milliseconds": 17,
+      "fundedTradesTested": false,
+      "check": "passed"
+    },
+    {
+      "label": "verified-buy.json unsigned readback",
+      "status": 200,
+      "milliseconds": 468,
+      "venue": "launchlab",
+      "simulation": {
+        "status": "passed",
+        "contextSlot": 456447810,
+        "unitsConsumed": 111520,
+        "signatureVerification": false,
+        "serviceFeeLamports": "250"
+      },
+      "unsigned": true,
+      "submitted": false,
+      "check": "passed"
+    },
+    {
+      "label": "verified-graduated-buy.json unsigned readback",
+      "status": 200,
+      "milliseconds": 650,
+      "venue": "raydium-cpmm",
+      "simulation": {
+        "status": "passed",
+        "contextSlot": 456447812,
+        "unitsConsumed": 84006,
+        "signatureVerification": false,
+        "serviceFeeLamports": "250"
+      },
+      "unsigned": true,
+      "submitted": false,
+      "check": "passed"
+    }
+  ]
+}
