@@ -6,10 +6,10 @@ export const config = {
   network: "Solana mainnet",
   native: "SOL",
   evm: false,
-  accent: "#96c8ff",
+  accent: "#22d1f8",
   port: 8812,
   fee: "BDhPeRcrHLcAd7ExE1H89WbANEfYEC3q53i2zTYYGYo",
-  hero: "LaunchLab trades.<br>Stage checked.<br><span>Locally signed.</span>",
+  hero: "Buy and Sell Raydium LaunchLab API",
   lead: "Build a buy or sell for a supported LaunchLab token. The API checks its curve or canonical CPMM pool before returning an unsigned transaction.",
   status:
     "Unsigned builds are available in beta. Read-only mainnet simulations passed; funded buys and sells have not been tested.",
