@@ -1,0 +1,46 @@
+{
+  "reviewDate": "2026-10-14",
+  "checkedAt": "2026-10-13T16:38:28.221Z",
+  "repository": "https://github.com/apilabph/raydium-launchlab-buy-sell-api",
+  "baseCommit": "fac6233d7c8f1fe9dc35505b81dba33f6e819cf2",
+  "node": "v24.18.0",
+  "testCount": 29,
+  "results": [
+    {
+      "command": "npm test",
+      "exitCode": 0,
+      "durationMs": 10239,
+      "logSha256": "b5bf6da0077cf4d0616654d53be1b2a40fa986435ba26504d687c7f8fbf6d420"
+    },
+    {
+      "command": "npm run check",
+      "exitCode": 0,
+      "durationMs": 5461,
+      "logSha256": "966fe689b3a0bc000ba7ad9ee741f8ea17eeebc7ce2061e05f9a2c0a91cb39b8"
+    },
+    {
+      "command": "npm run build:check",
+      "exitCode": 0,
+      "durationMs": 12301,
+      "logSha256": "7401622f0a5561e2801ab85643787f340023a4426b96ceaaa55ee1dfdf21f817"
+    },
+    {
+      "command": "npm audit --audit-level=moderate",
+      "exitCode": 0,
+      "durationMs": 4306,
+      "logSha256": "6d8c5c8f3d7684adb070417bd608d01ae90aa3dc26a65af03ffda4955f38d9a3"
+    },
+    {
+      "command": "git diff --check",
+      "exitCode": 0,
+      "durationMs": 279,
+      "logSha256": "e458541ad4f1938c7ac3ebd9b0c65953051be5bd9df693cb653ae22f952753d3"
+    }
+  ],
+  "scope": "Internal source review and offline regression/contract-fixture checks. No live chain request, wallet access, transaction signing/broadcast, funded trade or Worker deployment.",
+  "compatibility": "Executable token-mint accounts rejected.",
+  "customerRpcOnly": true,
+  "rapidApiChanged": false,
+  "contractBytecodeChanged": false,
+  "fundedTradingVerified": false
+}
